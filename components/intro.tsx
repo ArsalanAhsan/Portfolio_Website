@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/Arsalan_Portrait.jpeg"
+              src="/Arsalan_Portrait.png"
               alt="Arsalan portrait"
               width="192"
               height="192"

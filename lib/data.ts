@@ -20,10 +20,10 @@ export const experiencesData = [
     description:
       "Built FastAPI backend for veterinary pathology tools using PostgreSQL, Alembic, and Docker; designed scalable architecture and 20+ unit tests to support future production readiness.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jan 2025 – Present",
+    date: "Jan 2025 – May 2025",
   },
   {
-    title: "Junior Consultant – Systems Limited",
+    title: "Full Stack Developer – Systems Limited",
     location: "Karachi, Pakistan (Vodafone Qatar)",
     description:
       "Engineered secure payment APIs (Java 8, Spring Boot, J2EE, Oracle WCS, PostgreSQL), increasing Google Pay 3D Secure success by 15%.",
@@ -41,6 +41,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+   {
+    title: "Pathopan",
+    description:
+      "AI-powered veterinary diagnostics platform for automated pathology analysis and report generation. Built backend APIs and scalable services using Python FastAPI, PostgreSQL, Alembic, and Docker.",
+    tags: ["Python", "FastAPI", "PostgreSQL", "Docker", "Alembic", "REST APIs"],
+    url: "https://pathopan.com/#kontakt",
+    imageUrl: "/images/pathopan.png",
+  },
   {
     title: "Vodafone Qatar Payment Gateway",
     description:

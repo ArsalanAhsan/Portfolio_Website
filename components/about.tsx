@@ -23,48 +23,63 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-        Hello! I'm <span className="font-bold">Arsalan Ahsan</span>, a passionate and results-driven software engineer
-        based in <span className="font-bold">Munich, Germany</span>, with over <span className="font-bold">3 years of full-stack development experience</span>.
-        I specialize in building scalable, backend-heavy applications and delivering reliable software solutions across multiple domains.
+        Hello! I'm <span className="font-bold">Arsalan Ahsan</span>, a{" "}
+        <span className="font-bold">Full Stack Developer</span> and{" "}
+        <span className="font-bold">M.Sc. Computer Science student</span> at{" "}
+        <span className="font-bold">Philipps-Universität Marburg, Germany</span>.
+        I have over <span className="font-bold">3 years of professional software engineering experience</span>{" "}
+        building scalable backend systems, RESTful APIs, and enterprise-grade applications.
       </p>
 
       <p className="mb-3">
-        My core skills include{" "}
+        My primary expertise lies in{" "}
         <span className="font-bold">
-          Java, Spring Boot, FastAPI, J2EE, PostgreSQL, Docker, Kubernetes, and React.js
-        </span>
-        . I'm adept at integrating backend services with CI/CD pipelines and cloud infrastructure, and I enjoy solving complex technical problems using clean, scalable architecture.
+          Java, Spring Boot, Python, FastAPI, REST APIs, PostgreSQL, Docker, Kafka, and Microservices
+        </span>.
+        I enjoy designing clean architectures, solving complex backend challenges,
+        and developing reliable software solutions for mission-critical environments.
       </p>
 
       {showMore && (
         <>
           <p className="mb-3">
-            My journey started at <span className="font-bold">Avanza Solutions</span>, where I built a{" "}
-            <span className="font-bold">microservice-based KYC backend</span> for Al Khaleeji Bank,
-            reducing verification time by <span className="font-bold">40%</span> and improving overall system performance.
-            At <span className="font-bold">Systems Limited</span>,
-            I contributed to <span className="font-bold">Vodafone Qatar's payment systems</span>, engineering secure APIs and implementing transaction enhancements that significantly increased conversion and engagement rates.
+            During my professional journey, I have worked on enterprise applications,
+            financial systems, telecom platforms, and AI-driven healthcare solutions.
+            At <span className="font-bold">Systems Limited</span>, I contributed to{" "}
+            <span className="font-bold">Vodafone Qatar</span> by developing Java/Spring Boot backend services,
+            asynchronous payment event flows using Kafka and RabbitMQ,
+            and frontend-facing APIs for digital payment platforms.
           </p>
+
           <p className="mb-3">
-            Most recently, as a <span className="font-bold">Working Student at Aicendence</span>, I developed a{" "}
-            <span className="font-bold">FastAPI backend for digital pathology workflows</span>,
-            integrating PostgreSQL, Docker, and Alembic migrations. My work included designing scalable architecture and writing{" "}
-            <span className="font-bold">20+ unit tests</span> to ensure production readiness.
+            Previously at <span className="font-bold">Avanza Solutions</span>,
+            I worked on banking and onboarding systems using Spring Boot,
+            implemented automated testing solutions, reduced technical debt through refactoring,
+            and improved overall system reliability and maintainability.
           </p>
+
           <p className="mb-3">
-            Academically, I hold a <span className="font-bold">Bachelor’s in Software Engineering</span> and am currently pursuing a{" "}
-            <span className="font-bold">Master’s degree in Computer Science</span> at{" "}
-            <span className="font-bold">Philipps-Universität Marburg</span>.
-            I've also earned certifications in{" "}
-            <span className="font-bold">Microservices with gRPC</span>,{" "}
-            <span className="font-bold">Kubernetes</span>,{" "}
-            <span className="font-bold">AWS Cloud-Native Development</span>, and{" "}
-            <span className="font-bold">Full-Stack Web Development</span> with React and Node.js.
+            Most recently, I contributed to backend development at{" "}
+            <span className="font-bold">Aicendence</span>, where I worked with{" "}
+            <span className="font-bold">Python FastAPI, Docker, Keycloak, and GitLab CI/CD</span>.
+            My work included REST API development, authentication workflow customization,
+            technical documentation, and agile collaboration for AI-powered veterinary diagnostic platforms.
           </p>
+
           <p className="mb-3">
-            I am fluent in <span className="font-bold">English (C1)</span> and currently learning <span className="font-bold">German (A2)</span>.
-            My approach blends strong academic foundations, hands-on experience, and a commitment to continuous learning
-            to build meaningful and maintainable software solutions.
+            Alongside my professional experience, I have also built academic and personal projects,
+            including a{" "}
+            <span className="font-bold">Semantic Search Application</span> using{" "}
+            <span className="font-bold">FastAPI, Elasticsearch, and Sentence-BERT embeddings</span>,
+            improving semantic search accuracy compared to traditional keyword-based approaches.
+          </p>
+
+          <p className="mb-3">
+            I am passionate about backend engineering, scalable distributed systems,
+            and continuously learning modern technologies.
+            I am fluent in <span className="font-bold">English (C1)</span>,
+            currently learning <span className="font-bold">German (A2)</span>,
+            and enjoy working in collaborative and fast-paced development environments.
           </p>
         </>
       )}
